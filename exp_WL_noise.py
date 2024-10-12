@@ -230,7 +230,7 @@ if __name__ == '__main__':
         for interclass_noise_rate in interclass_noise_rate_lst:
             for intraclass_noise_rate in intraclass_noise_rate_lst:
                 print('psi:',psi,'interclass_noise_rate:',interclass_noise_rate,'intraclass_noise_rate:',intraclass_noise_rate)
-                noise_exp(dataset='dblp',psi_IK=psi,h_=2,
+                noise_exp(dataset='cora',psi_IK=psi,h_=2,
                           interclass_noise_rate=interclass_noise_rate,
                           intraclass_noise_rate=intraclass_noise_rate)
 
